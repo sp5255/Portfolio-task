@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+.carousel{
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.carousel-inner{
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.carousel-inner .first{
+  background: url("https://picsum.photos/id/123/1200/600");    
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.carousel-inner .second{
+  background-color: yellow;
+  background: url("https://picsum.photos/id/456/1200/600");    
+
+}
+.carousel-inner .third{  
+  background: url("https://picsum.photos/id/678/1200/600");  
+}  
+
+.carousel-inner .first,
+.carousel-inner .second,
+.carousel-inner .third{
   color: white;
+  font-size: 2rem;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;    
 }
 
-.App-link {
-  color: #61dafb;
+table{
+  margin-top: 5rem;  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content-card{
+  background: rgb(255, 168, 37);
+  backdrop-filter: blur(.5);
 }
