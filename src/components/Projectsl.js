@@ -1,6 +1,7 @@
 const Projects = () => {
     return (
         <>
+        <h4 className="text-center my-4"> Projects</h4>
             <table class="table">
                 <thead>
                     <tr>
